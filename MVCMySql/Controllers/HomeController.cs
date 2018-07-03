@@ -15,7 +15,7 @@ namespace MVCMySql.Controllers
     {
         private static readonly ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
-
+         
         public async Task<ActionResult> Index()
         {
             //Log.Info("Start logging");
